@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Cup', 'Key']
+
+roboflow:
+  workspace: testtraining-lv9xy
+  project: test2-dh6cl
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testtraining-lv9xy/test2-dh6cl/dataset/2
